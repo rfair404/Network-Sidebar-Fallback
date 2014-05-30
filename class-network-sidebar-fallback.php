@@ -5,7 +5,7 @@ class Network_Sidebar_Fallback{
 
     function __construct(){
         add_action('init', array($this, 'set_sidebars'), 10);
-        add_action('init', array($this, 'set_cache_time'), 10);
+        add_action('init', array($this, 'set_cache_timeout'), 10);
 
         add_action('dynamic_sidebar_before', array($this, 'network_sidebar'), 10, 2);
         add_action( 'init', array($this, 'collect_sidebars'), 10);
