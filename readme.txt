@@ -1,4 +1,4 @@
-=== Network Sidebar Fallback ===
+=== Network Sidebar Widgets ===
 Contributors: rfair404
 Donate link: http://q21.co/donate
 Tags: multisite, widget, sidebar
